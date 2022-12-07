@@ -1,0 +1,24 @@
+select#cities{
+    width: 100%;
+    padding: 7px;
+    border: solid 1px #e5e5e5;
+    margin-bottom: 30px;
+}
+
+#dealers_list h2{
+    margin-bottom: 30px;
+}
+
+.dealer_single{
+    border: solid 1px #e5e5e5;
+    padding: 15px;
+    height: 100%;
+}
+
+.dealer_single a{
+    color: #e96a66;
+}
+
+.dealer_single h3{
+    margin: 0;
+}

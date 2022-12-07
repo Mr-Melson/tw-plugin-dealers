@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section#dealers_list{
+    width: 100%;
+    max-width: 100%;
+}
+
+#dealers_list .container{
+    width: 100%;
+    padding: 0 7.5px;
+}
+
+#dealers_list .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#dealers_list .col{
+    width: 100%;
+}
+
+#dealers_list .col-6{
+    display: block;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    section#dealers_list{
+        max-width: 650px;
+    }
+
+    #dealers_list .container{
+        padding: 0 15px;
+    }
+
+    #dealers_list .col-6{
+        flex: 0 0 auto;
+        width: 48%;
+    }
+}
+
+@media (min-width: 1024px) {
+    section#dealers_list {
+        max-width: 920px;
+    }
+}
+
+@media (min-width: 1366px) {
+    section#dealers_list {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1920px) {
+    section#dealers_list {
+        max-width: 1320px;
+    }
+}
